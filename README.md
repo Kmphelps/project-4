@@ -3,12 +3,14 @@
 ## User Stories
 
 MVP: As a user, I can:
-- View a list of all available chores that need to be assigned 
+- View a list of all available chores  
 - Add a new family member / roommate with profile photo
 - Assign chores to the family member / roommate
 - View a list of all the chores assigned to the family member
 - Delete chore from family member 
 - Delete chore from database
+- Update profile picture
+- Delete profile
 
 Stretch: As a user, I can:
 - Add a new chore to the list
