@@ -19,3 +19,7 @@ Stretch: As a user, I can:
 
 Family Member -< Signup >- Chore
 
+
+## Wireframe
+
+![Screen Shot 2021-10-04 at 11 09 06 AM](https://user-images.githubusercontent.com/81663925/135902178-0088118a-4b9c-4787-bb52-5b596c7531c5.png)
