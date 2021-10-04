@@ -13,9 +13,9 @@ MVP: As a user, I can:
 - Delete profile
 
 Stretch: As a user, I can:
-- Add a new chore to the list
-- Multi user / multi family functionality based on login 
-- Edit family member info
+- Login functionality
+- Add a new chore to the list 
+- View all assignments for each chore
 
 ## ERD for MVP
 
