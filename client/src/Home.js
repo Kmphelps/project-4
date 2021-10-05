@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+
 function Home() {
 const [people, setPeople] = useState([]);
 
@@ -12,15 +13,20 @@ useEffect(() => {
 
 return (
     <div>
-        <ul>
+        <section className="container">
             {people.map((person) => (
-                <li key={person.id}>
-                    <span>
-                        {person.name}
-                    </span>
-                </li>
+                <div className="card" key={person.id}>
+                        <h3>{person.name}</h3>
+                        <img src={person.image} className="profile-image-home"></img>
+                        <br></br>
+                        <button className="chores-button">View Chores</button>
+                </div>
             ))}
-        </ul>
+        </section>
+        <br></br>
+        <section className="container">
+        <h2>Chores</h2>
+        </section>
     </div>
 );
 }

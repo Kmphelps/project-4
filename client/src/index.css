@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+h3 {
+  margin-top: 5px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  float: left;
+  background-color: rgb(221, 214, 201);
+  margin: 2%;
+  padding: 2%;
+  border-radius: 8px;
+  max-width: 300px;
+}
+
+.profile-image-home {
+  height: 150px;
+  width: 150px;
+}
+
+.chores-button {
+  margin-top: 10px;
 }
