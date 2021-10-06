@@ -10,6 +10,7 @@ puts "🌱 Seeding..."
 
 puts "Deleting old data..."
 Person.destroy_all
+Chore.destroy_all
 
 puts "Creating people..."
 person1 = Person.create(name: "Jessica", image: "https://sweetjanemag.com/wp-content/uploads/2019/11/edward-cisneros-_H6wpor9mjs-unsplash-1080x675.jpg")
@@ -17,4 +18,10 @@ person2 = Person.create(name: "Mike", image: "https://i.insider.com/5df272bffd9d
 person3 = Person.create(name: "Sally", image: "https://www.oshonews.com/wp-content/uploads/2021/08/School-girl.jpg")
 person4 = Person.create(name: "Jake", image: "https://i.guim.co.uk/img/media/1c6376fa37a46be68388842b8b1a7c90ac68222e/0_261_3513_2108/master/3513.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=55d0e4a9bd46157dd5d28debdd37bdc4")
 
-
+puts "Creating chores..."
+chore1 = Chore.create(chore: "Wash dishes", frequency: "Daily", time_estimate_minutes: "20")
+chore2 = Chore.create(chore: "Vacuum Floors", frequency: "Weekly", time_estimate_minutes: "30")
+chore3 = Chore.create(chore: "Clean Fridge", frequency: "Weekly", time_estimate_minutes: "15")
+chore4 = Chore.create(chore: "Wash Laundry", frequency: "Weekly", time_estimate_minutes: "90")
+chore5 = Chore.create(chore: "Mow Lawn", frequency: "Weekly", time_estimate_minutes: "60")
+chore6 = Chore.create(chore: "Wash Windows", frequency: "Weekly", time_estimate_minutes: "30")

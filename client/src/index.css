@@ -18,13 +18,19 @@ h3 {
   margin-top: 5px;
 }
 
-.container {
+.people-container {
   max-width: 800px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 
+.chores-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Displays the content for each person on the home page */
 .card {
   float: left;
   background-color: rgb(221, 214, 201);
