@@ -1,9 +1,7 @@
 import { Nav, NavLinks, NavMenu } from './NavElements'
-import { BrowserRouter } from "react-router-dom";
 
 function Navbar() {
   return (
-      <BrowserRouter>
     <Nav className="navbar">
         
         <NavMenu className="menu">
@@ -14,7 +12,6 @@ function Navbar() {
     
         </NavMenu>
     </Nav>
-    </BrowserRouter>
   )
 }
 
