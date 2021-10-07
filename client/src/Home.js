@@ -13,6 +13,7 @@ useEffect(() => {
     .then(setPeople);
 }, []);
 
+// Gets all of the chores and sets state
 useEffect(() => {
     fetch("/chores")
     .then((r) => r.json())
@@ -27,14 +28,15 @@ return (
             {people.map((person) => (
                 <div className="card" key={person.id}>
                         <h3>{person.name}</h3>
-                        <img src={person.image} className="profile-image-home"></img>
+                        <img src={person.image} className="profile-image-home" alt={person.name}></img>
+                        <Link to={`/people/${person.id}`} className="chores-button">View Chores</Link>
                         <br></br>
-                        <button className="chores-button">View Chores</button>
                 </div>
             ))}
         </section>
         <br></br>
         <h2>Chores</h2>
+        {/* Displays each chore on a separate line on the home page */}
         <section className="chores-container">
             {chores.map((chore) => (
                 <div className="chore-listing" key={chore.id}>
