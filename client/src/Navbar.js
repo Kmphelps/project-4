@@ -6,7 +6,7 @@ function Navbar() {
     <Nav className="navbar">
         <NavMenu className="menu">
             <NavLinks style={{color: "#ef869c", fontWeight: "bold" }} to="/" className="link">
-            Keeping it Clean <img src={broom} alt="broom"/> Household Chore Delegation App 
+            Keeping it Clean <img src={broom} alt="broom"/> Household Chore Delegation 
             </NavLinks>
             
         </NavMenu>
