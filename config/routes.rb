@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :people
-  resources :chores, only: [:index, :show, :destroy]
+  resources :chores, only: [:index, :show, :create, :destroy]
   resources :signups, only: [:create, :destroy]
   
   # Routing logic: fallback requests for React Router.

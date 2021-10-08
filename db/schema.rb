@@ -10,17 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_04_192235) do
+ActiveRecord::Schema.define(version: 2021_10_07_225709) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "chores", force: :cascade do |t|
-    t.string "chore"
     t.string "frequency"
     t.integer "time_estimate_minutes"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "name"
   end
 
   create_table "people", force: :cascade do |t|
