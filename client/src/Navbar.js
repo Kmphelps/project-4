@@ -7,8 +7,9 @@ function Navbar() {
         <NavMenu className="menu">
             <NavLinks style={{color: "#ef869c", fontWeight: "bold" }} to="/" className="link">
             Keeping it Clean <img src={broom} alt="broom"/> Household Chore Delegation 
+            <button className="logout-button">Logout</button>
             </NavLinks>
-            
+           
         </NavMenu>
     </Nav>
   )

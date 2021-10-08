@@ -192,3 +192,20 @@ form div {
   
 }
 
+.logout-button {
+  margin-left: 300px;
+  -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-weight: bold;
+    color: 000000;
+    background: #FFE3E3;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.logout-button:hover {
+  background: #7696a7;
+  text-decoration: none;
+
+}
