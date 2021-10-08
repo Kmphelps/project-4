@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <Nav className="navbar">
         <NavMenu className="menu">
-            <NavLinks style={{color: "#EF869C", fontWeight: "bold" }} to="/" className="link">
+            <NavLinks style={{color: "#6c8c9c", fontWeight: "bold" }} to="/" className="link">
             Household Chore Delegator
             </NavLinks>
             

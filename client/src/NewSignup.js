@@ -38,7 +38,7 @@ function NewSignup({ personId, onAssignChore}) {
        
     return (
         <form onSubmit={handleSubmit}>
-            <h2 style={{color: "#EF869C", paddingTop: "10px"}}>Assign a Chore</h2>
+            <h2 style={{paddingTop: "10px"}}>Assign a Chore</h2>
             <div>
                 <select
                     className="select-chore-dropdown"
@@ -59,7 +59,7 @@ function NewSignup({ personId, onAssignChore}) {
                     {err}
                 </p>
             ))}
-            <button style={{backgroundColor: "#EF869C"}} type="submit">Submit</button>
+            <button className="submit" type="submit">Submit</button>
         </form>
     );
 }

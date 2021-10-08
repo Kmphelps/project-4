@@ -103,11 +103,11 @@ return (
         
         {/* Displays each chore on a separate line on the home page */}
         <section className="chores-container">
-        <h2>Household Chores</h2>
+        <h2>All Household Chores</h2>
             {chores.map((chore) => (
                 <div className="chore-listing" key={chore.id}>
                     <h4>
-                        <text style={{color: "#1073E5"}}>{chore.name}</text> | Frequency: <text style={{color: "#1073E5"}}>{chore.frequency}</text> | Time Estimate: <text style={{color: "#1073E5"}}>{chore.time_estimate_minutes} minutes</text> | <button className="delete-chore-button" onClick={() => handleDelete(chore.id)}>x</button>
+                        <text style={{color: "#EF869C"}}>{chore.name}</text> | Frequency: <text style={{color: "#93B5C6"}}>{chore.frequency}</text> | Time Estimate: <text style={{color: "#93B5C6"}}>{chore.time_estimate_minutes} minutes</text> | <button className="delete-chore-button" onClick={() => handleDelete(chore.id)}>x</button>
                     </h4> 
                 
                 </div>

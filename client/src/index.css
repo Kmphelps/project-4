@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: #bcdff3;
+  background-color: #93B5C6;
 }
 
 code {
@@ -14,9 +14,6 @@ code {
     monospace;
 }
 
-h1 {
-  color: #EF869C;
-}
 
 h3 {
   margin-top: 5px;
@@ -40,14 +37,20 @@ h4 {
   float: left;
   background-color: white;
   margin: 2%;
-  padding: 2%;
+  padding: 4%;
   border-radius: 8px;
   max-width: 300px;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.card div {
+  padding: 10px;
 }
 
 .profile-image-home {
   height: 140px;
   width: 160px;
+  padding-bottom: 10px;
 }
 
 .profile-image {
@@ -59,26 +62,26 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto; 
   padding-top: 20px;
 }
 
 .chore-form-container {
   float: left;
-  border-color: white;
-  border-width: 2px;
-  border-style: dashed;
-  padding: 4px;
-  margin-right: 20px;
+  padding: 25px;
+  margin-right: 40px;
+  background-color: #C9CCD5;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  border-radius: 8px;
 }
 
 .person-form-container {
   float: left;
-  border-color: white;
-  border-width: 2px;
-  border-style: dashed;
-  padding: 4px;
+  padding: 25px;
+  background-color: #C9CCD5;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  border-radius: 8px;
   
 }
 
@@ -87,6 +90,7 @@ h4 {
   margin-top: 30px;
   background-color:white;
   border-radius: 8px;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
 .chore-listing {
@@ -97,6 +101,8 @@ h4 {
 .delete-chore-button {
   max-height: 22px;
   color: #F04520;
+  background-color: #f8d8df;
+  border-radius: 8px;
   
   
 }
@@ -105,6 +111,7 @@ h4 {
   display: flex;
   justify-content: center;
   padding-bottom: 15px;
+  background-color: #ffffff;
 }
 
 input {
@@ -112,18 +119,52 @@ input {
   background-color: #f4f6f7;
 }
 
+form div {
+  padding: 4px;
+}
+
 .form-button {
-  margin-top: 5px;
-  background-color: #EF869C;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+  background: #FFE3E3;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.form-button:hover {
+  background: #93B5C6;
+  text-decoration: none;
 }
 
 .chores-button {
-  color: #1073E5;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #000000;
   font-weight: bold;
+  font-size: 15px;
+  background: #93B5C6;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
+
+.chores-button:hover {
+  background: #FFE3E3;
+  text-decoration: none;
+}
+
+
+  
+
 
 .delete-person-button {
   float: right;
+  background-color: #f8d8df;
+  border-radius: 8px;
 }
 
 
@@ -133,4 +174,22 @@ input {
   margin-bottom: 10px;
   font-size: 15px;
 
+}
+
+
+.submit {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-weight: bold;
+    color: 000000;
+    background: #FFE3E3;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .submit:hover {
+    background: #7696a7;
+    text-decoration: none;
+  
 }
