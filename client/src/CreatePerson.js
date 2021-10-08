@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+
 function CreatePerson({ addPerson }) {
     const [name, setName] = useState('');
     const [image, setImage] = useState('');
@@ -18,7 +19,7 @@ function CreatePerson({ addPerson }) {
 
     return (   
         <form onSubmit={handleSubmit}>
-            <h3>Add a New Family Member / Roommate</h3>
+            <h3>Add a New Family Member or Roommate</h3>
             <div>
             <label>Name:</label>
             <input
@@ -34,9 +35,10 @@ function CreatePerson({ addPerson }) {
             value={image}
             onChange={(e) => setImage(e.target.value)}
             />
-            </div>
-        
+            </div> <br></br>
             <button className="form-button" type="submit">Add To Household</button>
+            
+            
         </form>
         
          )

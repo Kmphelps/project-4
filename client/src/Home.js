@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import CreateChore from "./CreateChore";
 import CreatePerson from "./CreatePerson";
 
+
 function Home() {
 const [people, setPeople] = useState([]);
 const [chores, setChores] = useState([]);
@@ -95,7 +96,7 @@ return (
         <section className="chore-form-container"> 
         <CreateChore addChore={handleAddChore} />
         </section>
-
+        
         <section className="person-form-container"> 
         <CreatePerson addPerson={handleAddPerson} />
         
@@ -103,7 +104,7 @@ return (
         
         {/* Displays each chore on a separate line on the home page */}
         <section className="chores-container">
-        <h2>All Household Chores</h2>
+        <h2>All Household Chores</h2> 
             {chores.map((chore) => (
                 <div className="chore-listing" key={chore.id}>
                     <h4>
