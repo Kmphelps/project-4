@@ -48,7 +48,7 @@ return (
     />
     </div>
 <br></br>
-    <button className="form-button" type="submit">Add To List of Chores</button>
+    <button className="form-button" type="submit">Add to List of Chores</button>
 </form>
 
  )

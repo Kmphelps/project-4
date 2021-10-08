@@ -36,8 +36,7 @@ function CreatePerson({ addPerson }) {
             onChange={(e) => setImage(e.target.value)}
             />
             </div> <br></br>
-            <button className="form-button" type="submit">Add To Household</button>
-            
+            <button className="form-button" type="submit">Add to Household</button>
             
         </form>
         
